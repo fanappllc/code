@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="ROBOTOSLAB-BOLD.TTF">
+            <string>RobotoSlab-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="fRT-MV-6c8" customClass="PickerView" customModule="FanCustomer" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VoL-6E-vic">
+                    <rect key="frame" x="0.0" y="667" width="375" height="207"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ug0-C7-btQ">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="45"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2cd-qn-0fu">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="1"/>
+                                    <color key="backgroundColor" red="0.85490196080000003" green="0.85490196080000003" blue="0.85490196080000003" alpha="1" colorSpace="calibratedRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="1" id="rXc-95-q5v"/>
+                                    </constraints>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Lcm-pA-nuj">
+                                    <rect key="frame" x="0.0" y="44" width="375" height="1"/>
+                                    <color key="backgroundColor" red="0.85490196080000003" green="0.85490196080000003" blue="0.85490196080000003" alpha="1" colorSpace="calibratedRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="1" id="3iM-RK-nJa"/>
+                                    </constraints>
+                                </view>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u5v-sB-4fW">
+                                    <rect key="frame" x="0.0" y="0.0" width="100" height="45"/>
+                                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="100" id="ReV-ht-VO0"/>
+                                        <constraint firstAttribute="height" constant="45" id="Rvq-Qv-34o"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="RobotoSlab-Bold" family="Roboto Slab" pointSize="15"/>
+                                    <inset key="titleEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal" title="Cancel">
+                                        <color key="titleColor" red="0.1843137255" green="0.1764705882" blue="0.26274509800000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="btnDone_Action:" destination="fRT-MV-6c8" eventType="touchUpInside" id="6kI-le-uXd"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wwI-Nc-oYP">
+                                    <rect key="frame" x="275" y="0.0" width="100" height="45"/>
+                                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="45" id="ddh-sQ-bJW"/>
+                                        <constraint firstAttribute="width" constant="100" id="vXp-KW-02z"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="RobotoSlab-Bold" family="Roboto Slab" pointSize="15"/>
+                                    <inset key="titleEdgeInsets" minX="0.0" minY="0.0" maxX="15" maxY="0.0"/>
+                                    <state key="normal" title="Done">
+                                        <color key="titleColor" red="0.1843137255" green="0.1764705882" blue="0.26274509800000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="btnDone_Action:" destination="fRT-MV-6c8" eventType="touchUpInside" id="IUD-vj-LCA"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="wwI-Nc-oYP" secondAttribute="trailing" id="DQ7-sm-x36"/>
+                                <constraint firstItem="u5v-sB-4fW" firstAttribute="top" secondItem="ug0-C7-btQ" secondAttribute="top" id="EIA-MY-TcX"/>
+                                <constraint firstAttribute="trailing" secondItem="Lcm-pA-nuj" secondAttribute="trailing" id="LMx-Ad-Qri"/>
+                                <constraint firstItem="Lcm-pA-nuj" firstAttribute="leading" secondItem="ug0-C7-btQ" secondAttribute="leading" id="MgT-vW-tPF"/>
+                                <constraint firstAttribute="trailing" secondItem="2cd-qn-0fu" secondAttribute="trailing" id="MtW-Ko-BtX"/>
+                                <constraint firstItem="u5v-sB-4fW" firstAttribute="leading" secondItem="ug0-C7-btQ" secondAttribute="leading" id="VuR-9t-zd0"/>
+                                <constraint firstItem="2cd-qn-0fu" firstAttribute="top" secondItem="ug0-C7-btQ" secondAttribute="top" id="aBd-Jr-qzp"/>
+                                <constraint firstItem="wwI-Nc-oYP" firstAttribute="top" secondItem="ug0-C7-btQ" secondAttribute="top" id="fJn-Pl-5SB"/>
+                                <constraint firstItem="2cd-qn-0fu" firstAttribute="leading" secondItem="ug0-C7-btQ" secondAttribute="leading" id="koH-Dg-6T9"/>
+                                <constraint firstAttribute="bottom" secondItem="Lcm-pA-nuj" secondAttribute="bottom" id="myK-he-dnT"/>
+                                <constraint firstAttribute="bottom" secondItem="wwI-Nc-oYP" secondAttribute="bottom" id="pFD-CX-S2X"/>
+                                <constraint firstAttribute="height" constant="45" id="sUZ-jA-JiL"/>
+                                <constraint firstAttribute="bottom" secondItem="u5v-sB-4fW" secondAttribute="bottom" id="yDa-TV-d2u"/>
+                            </constraints>
+                        </view>
+                        <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iHp-No-KX7">
+                            <rect key="frame" x="0.0" y="45" width="375" height="162"/>
+                            <connections>
+                                <outlet property="dataSource" destination="fRT-MV-6c8" id="Qzg-CE-Uw1"/>
+                                <outlet property="delegate" destination="fRT-MV-6c8" id="4Fp-wb-U0L"/>
+                            </connections>
+                        </pickerView>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="iHp-No-KX7" secondAttribute="bottom" id="3fy-DX-JKD"/>
+                        <constraint firstItem="iHp-No-KX7" firstAttribute="top" secondItem="ug0-C7-btQ" secondAttribute="bottom" id="9O1-ws-Prn"/>
+                        <constraint firstItem="ug0-C7-btQ" firstAttribute="top" secondItem="VoL-6E-vic" secondAttribute="top" id="CY3-zv-iwU"/>
+                        <constraint firstAttribute="trailing" secondItem="ug0-C7-btQ" secondAttribute="trailing" id="YVe-WV-vWp"/>
+                        <constraint firstAttribute="trailing" secondItem="iHp-No-KX7" secondAttribute="trailing" id="edD-8g-OKs"/>
+                        <constraint firstItem="ug0-C7-btQ" firstAttribute="leading" secondItem="VoL-6E-vic" secondAttribute="leading" id="ojc-4k-EZM"/>
+                        <constraint firstAttribute="height" constant="207" id="q5U-Br-EBU"/>
+                        <constraint firstItem="iHp-No-KX7" firstAttribute="leading" secondItem="VoL-6E-vic" secondAttribute="leading" id="wEp-yL-zV8"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="VoL-6E-vic" firstAttribute="leading" secondItem="fRT-MV-6c8" secondAttribute="leading" id="1Qz-T4-IXb"/>
+                <constraint firstAttribute="bottom" secondItem="VoL-6E-vic" secondAttribute="bottom" constant="-207" id="b0o-Se-9as"/>
+                <constraint firstAttribute="trailing" secondItem="VoL-6E-vic" secondAttribute="trailing" id="jTN-Rr-cmU"/>
+            </constraints>
+            <connections>
+                <outlet property="picker_Text" destination="iHp-No-KX7" id="Ghe-Ai-G2t"/>
+                <outlet property="view_Container_Bottom" destination="b0o-Se-9as" id="fMP-eu-ZSs"/>
+            </connections>
+            <point key="canvasLocation" x="-1318" y="-648"/>
+        </view>
+    </objects>
+</document>
