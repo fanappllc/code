@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:ignore="MissingPrefix">
+
+
+    <include
+        android:id="@+id/toolbar_update_user"
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar_update_user"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.15"
+            android:padding="@dimen/padding_10">
+
+            <TextView
+                fontPath="@string/font_quicksand_regular"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/for_authontication"
+                android:textColor="@color/black"
+                android:textSize="@dimen/size_15"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.75"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/padding_20"
+            android:paddingRight="@dimen/padding_20">
+
+            <TextView
+                fontPath="@string/font_quicksand_regular"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/padding_10"
+                android:layout_marginRight="@dimen/padding_15"
+                android:layout_marginTop="@dimen/padding_15"
+                android:text="@string/social_security"
+                android:textColor="@color/black"
+                android:textSize="@dimen/size_16" />
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/socialEditText"
+                fontPath="@string/font_quicksand_regular"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/padding_10"
+                android:layout_marginRight="@dimen/padding_15"
+                android:layout_marginTop="@dimen/padding_10"
+                android:background="@drawable/gray_border_and_corner_bg"
+                android:hint="@string/social_security"
+                android:inputType="number"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:textSize="@dimen/size_16" />
+
+
+
+
+            <LinearLayout
+                android:id="@+id/radioGroup"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/padding_7"
+                android:layout_marginRight="@dimen/padding_10"
+                android:layout_marginTop="@dimen/padding_30"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/radioButton1"
+                    fontPath="@string/font_quicksand_regular"
+                    android:layout_width="262dp"
+                    android:layout_height="wrap_content"
+                    android:button="@drawable/radio_button"
+                    android:checked="true"
+                    android:padding="@dimen/padding_10"
+                    android:text="@string/radio_one"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/size_14" />
+
+                <RadioButton
+                    android:id="@+id/radioButton2"
+                    fontPath="@string/font_quicksand_regular"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:button="@drawable/radio_button"
+                    android:checked="true"
+                    android:paddingBottom="@dimen/padding_10"
+                    android:paddingLeft="@dimen/padding_10"
+                    android:paddingTop="@dimen/padding_10"
+                    android:text="@string/radio_two"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/size_14" />
+
+                <RadioButton
+                    android:id="@+id/radioButton3"
+                    fontPath="@string/font_quicksand_regular"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:button="@drawable/radio_button"
+                    android:checked="true"
+                    android:padding="@dimen/padding_10"
+                    android:text="@string/radio_three"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/size_14" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.10">
+
+            <TextView
+                android:id="@+id/txtSubmitDetail"
+                fontPath="@string/font_josefinsans_medium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/blue_selector_btn"
+                android:gravity="center"
+                android:layout_gravity="bottom"
+                android:padding="@dimen/padding_15"
+                android:text="@string/text_continue"
+                android:textColor="@color/white"
+                android:textSize="@dimen/size_18" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

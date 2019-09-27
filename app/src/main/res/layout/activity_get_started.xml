@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingPrefix"
+    android:background="@mipmap/intro_bg_third">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/view_pager_get_started"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:isScrollContainer="true" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:padding="@dimen/padding_10">
+
+
+        <RelativeLayout
+            android:id="@+id/docRelative"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="invisible">
+
+            <ImageView
+                android:id="@+id/docImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:src="@mipmap/splash_logo" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_get_stared"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/docRelative"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="@dimen/padding_25"
+            android:visibility="invisible">
+
+            <TextView
+                android:id="@+id/textViewShare"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/padding_20"
+                fontPath="@string/font_quicksand_regular"
+                android:text="@string/happy_to_share"
+                android:textColor="@color/white"
+                android:textSize="@dimen/size_26" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textViewShare"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/padding_10"
+                fontPath="@string/font_quicksand_regular"
+                android:gravity="center"
+                android:text="@string/short_dummy_text"
+                android:textColor="@color/white"
+                android:textSize="@dimen/size_18" />
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+    <com.fanphotographer.helper.LinePageIndicator
+        android:id="@+id/lineIndicator_get_started"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/getStarted"
+        android:layout_marginBottom="@dimen/padding_20"
+        android:padding="@dimen/padding_10"
+        app:centered="true"
+        app:gapWidth="@dimen/padding_10"
+        app:lineWidth="@dimen/padding_20"
+        app:selectedColor="@color/colorPrimary"
+        app:strokeWidth="@dimen/padding_5"
+        app:unselectedColor="@color/gray" />
+
+
+    <RelativeLayout
+        android:id="@+id/getStarted"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/getStarted1"
+        android:layout_marginBottom="@dimen/padding_20"
+        android:gravity="center"
+        android:padding="@dimen/padding_15"
+        android:visibility="visible">
+
+        <TextView
+            android:id="@+id/text_view_started"
+            fontPath="@string/font_josefinsans_medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/orange_btn_selector"
+            android:paddingBottom="@dimen/padding_10"
+            android:paddingLeft="@dimen/padding_20"
+            android:paddingRight="@dimen/padding_20"
+            android:paddingTop="@dimen/padding_10"
+            android:text="@string/get_started"
+            android:textColor="@color/white"
+            android:textSize="@dimen/size_16" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

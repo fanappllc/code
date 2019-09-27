@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<com.daimajia.swipe.SwipeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:swipe="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/swipe"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    swipe:leftEdgeSwipeOffset="0dp"
+    swipe:rightEdgeSwipeOffset="0dp">
+
+    <!--Bottom View For Left to Right-->
+
+    <LinearLayout
+        android:id="@+id/bottom_wrapper"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@color/light_gray"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/light_gray" />
+
+        <RelativeLayout
+            android:id="@+id/deleteNotificationRelative"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:background="@color/dark_orange">
+
+            <ImageView
+                android:id="@+id/btn_delete_right_notification"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_weight="1"
+                android:background="@null"
+                android:src="@mipmap/delete_message" />
+
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:background="@color/light_gray" />
+    </LinearLayout>
+
+    <!-- Top View,  Row itemView of RecyclerView -->
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/rl_message_row"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/light_gray">
+
+        <RelativeLayout xmlns:customfont="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/rl_inner_lay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/white"
+            android:padding="10dp">
+
+
+            <TextView
+                android:id="@+id/textView_message"
+                fontPath="@string/font_quicksand_regular"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lorem lpsum is simply dummy text of the printing"
+                android:textColor="@color/black_edit"
+                android:textSize="14sp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView_message"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/timeTextView"
+                    fontPath="@string/font_quicksand_regular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2 Hr."
+                    android:textColor="@color/black_edit"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/new_textView"
+                    fontPath="@string/font_quicksand_regular"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="NEW"
+                    android:textColor="@color/light_orange"
+                    android:textSize="14sp" />
+
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+</com.daimajia.swipe.SwipeLayout>
+

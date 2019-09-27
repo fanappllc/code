@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "484813316453",
+    "firebase_url": "https://fanphotographer-4600e.firebaseio.com",
+    "project_id": "fanphotographer-4600e",
+    "storage_bucket": "fanphotographer-4600e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:484813316453:android:9d6882918ba0178c",
+        "android_client_info": {
+          "package_name": "com.fanphotographer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "484813316453-4t8q7scnmfgs0g3uhoevn36uaafc9dj4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCELZI6cQ0YoUrunZg4MHbJ5ZmssNA-NNI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

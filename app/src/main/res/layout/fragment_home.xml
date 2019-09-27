@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:customfontdemo="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbar_home"
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar_home"
+        android:scrollbars="vertical"
+        android:visibility="visible" />
+
+
+    <TextView
+        android:id="@+id/no_clear"
+        fontPath="@string/font_quicksand_regular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="No Job's Available!"
+        android:textColor="@color/dark_orange"
+        android:textSize="16sp"
+        android:visibility="gone" />
+
+
+
+    <RelativeLayout
+        android:id="@+id/onlineLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/textViewShare"
+            fontPath="@string/font_quicksand_regular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/padding_20"
+            android:text="you are currently offline"
+            android:textColor="@color/black_edit"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewShare"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dp"
+            android:src="@mipmap/offline" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
+
+

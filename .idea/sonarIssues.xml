@@ -1,0 +1,914 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="issues">
+    <option name="index">
+      <map>
+        <entry key="/Dummy.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/a.dummy">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/fragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/0dd7392c1bf6df3b7a4615ea05f2311a/jars/classes.jar!/com/google/android/gms/common/api/GoogleApiClient.class">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/d4919edb6ba5b702ae33b8c212d50334/jars/classes.jar!/com/google/android/gms/common/api/internal/zzci.class">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/.gradle/caches/transforms-1/files-1.1/play-services-location-11.8.0.aar/0c975e73bb37e538dd37a0ab8bc81dcc/jars/classes.jar!/com/google/android/gms/location/FusedLocationProviderApi.class">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/.gradle/caches/transforms-1/files-1.1/play-services-location-11.8.0.aar/0c975e73bb37e538dd37a0ab8bc81dcc/jars/classes.jar!/com/google/android/gms/location/LocationRequest.class">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/AzoozDriverApp/app/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/AzoozDriverApp/app/src/main/AndroidManifest.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/AzoozDriverApp/app/src/main/java/com/azoozdriver/MyApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/AzoozDriverApp/app/src/main/java/com/azoozdriver/data/local/AzoozPreference.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/AzoozDriverApp/app/src/main/java/com/azoozdriver/data/local/PreferenceKeys.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/AzoozDriverApp/app/src/main/java/com/azoozdriver/data/model/ChangeLanguageResponse.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/AzoozDriverApp/app/src/main/java/com/azoozdriver/data/model/ForgotPasswordResponse.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/AzoozDriverApp/app/src/main/java/com/azoozdriver/data/model/GetAllCancelResionResponse.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/AzoozDriverApp/app/src/main/java/com/azoozdriver/data/model/GetAllHomeListResponse.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/AzoozDriverApp/app/src/main/java/com/azoozdriver/data/model/GetMyOrderListResponse.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/AzoozDriverApp/app/src/main/java/com/azoozdriver/data/model/LogoutResponse.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/AzoozDriverApp/app/src/main/java/com/azoozdriver/data/model/NotificationAcceptRejectResponse.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/AzoozDriverApp/app/src/main/java/com/azoozdriver/data/model/ProfileResponse.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/AzoozDriverApp/app/src/main/java/com/azoozdriver/data/model/SignInResponse.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/AzoozDriverApp/app/src/main/java/com/azoozdriver/data/model/base/BaseModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/AzoozDriverApp/app/src/main/java/com/azoozdriver/data/model/profile/ProfileBean.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/AzoozDriverApp/app/src/main/java/com/azoozdriver/data/remote/Api.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/AzoozDriverApp/app/src/main/java/com/azoozdriver/fcm/FireBaseMessagingService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/AzoozDriverApp/app/src/main/java/com/azoozdriver/services/LocationMonitoringService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/AzoozDriverApp/app/src/main/java/com/azoozdriver/services/LocationUpdatesService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/AzoozDriverApp/app/src/main/java/com/azoozdriver/ui/base/BaseActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/AzoozDriverApp/app/src/main/java/com/azoozdriver/ui/base/BaseViewModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/AzoozDriverApp/app/src/main/java/com/azoozdriver/ui/changelanguage/ChangeLanguageActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/AzoozDriverApp/app/src/main/java/com/azoozdriver/ui/changelanguage/ChangeLanguageViewModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/AzoozDriverApp/app/src/main/java/com/azoozdriver/ui/drawer/DrawerActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/AzoozDriverApp/app/src/main/java/com/azoozdriver/ui/drawer/DrawerNavigator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/AzoozDriverApp/app/src/main/java/com/azoozdriver/ui/drawer/home/HomeFragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/AzoozDriverApp/app/src/main/java/com/azoozdriver/ui/drawer/home/HomeNavigator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/AzoozDriverApp/app/src/main/java/com/azoozdriver/ui/drawer/home/HomeViewModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/AzoozDriverApp/app/src/main/java/com/azoozdriver/ui/drawer/home/adapter/NewRadioAdapter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/AzoozDriverApp/app/src/main/java/com/azoozdriver/ui/drawer/home/adapter/RadioAdapter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/AzoozDriverApp/app/src/main/java/com/azoozdriver/ui/drawer/home/adapter/RadioAdapterViewModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/AzoozDriverApp/app/src/main/java/com/azoozdriver/ui/drawer/home/adapter/RadioBean.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/AzoozDriverApp/app/src/main/java/com/azoozdriver/ui/drawer/order/OrderFragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/AzoozDriverApp/app/src/main/java/com/azoozdriver/ui/drawer/order/OrderNavigator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/AzoozDriverApp/app/src/main/java/com/azoozdriver/ui/drawer/order/OrderViewModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/AzoozDriverApp/app/src/main/java/com/azoozdriver/ui/drawer/order/adapter/OrderAdapter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/AzoozDriverApp/app/src/main/java/com/azoozdriver/ui/drawer/order/adapter/OrderAdapterViewModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/AzoozDriverApp/app/src/main/java/com/azoozdriver/ui/drawer/profile/ProfileFragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/AzoozDriverApp/app/src/main/java/com/azoozdriver/ui/drawer/profile/ProfileNavigator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/AzoozDriverApp/app/src/main/java/com/azoozdriver/ui/drawer/profile/ProfileViewModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/AzoozDriverApp/app/src/main/java/com/azoozdriver/ui/drawer/webview/WebViewFragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/AzoozDriverApp/app/src/main/java/com/azoozdriver/ui/drawer/webview/WebViewNavigator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/AzoozDriverApp/app/src/main/java/com/azoozdriver/ui/forgotpassword/ForgotPasswordActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/AzoozDriverApp/app/src/main/java/com/azoozdriver/ui/forgotpassword/ForgotPasswordNavigator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/AzoozDriverApp/app/src/main/java/com/azoozdriver/ui/forgotpassword/ForgotPasswordViewModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/AzoozDriverApp/app/src/main/java/com/azoozdriver/ui/orderdetail/OrderDetailActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/AzoozDriverApp/app/src/main/java/com/azoozdriver/ui/orderdetail/OrderDetailNavigator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/AzoozDriverApp/app/src/main/java/com/azoozdriver/ui/request_accept/RequestAcceptActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/AzoozDriverApp/app/src/main/java/com/azoozdriver/ui/request_accept/RequestAcceptNavigator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/AzoozDriverApp/app/src/main/java/com/azoozdriver/ui/request_accept/RequestAcceptViewModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/AzoozDriverApp/app/src/main/java/com/azoozdriver/ui/signin/SignInActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/AzoozDriverApp/app/src/main/java/com/azoozdriver/ui/signin/SignInViewModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/AzoozDriverApp/app/src/main/java/com/azoozdriver/ui/splash/SplashActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/AzoozDriverApp/app/src/main/java/com/azoozdriver/ui/splash/SplashNavigator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/AzoozDriverApp/app/src/main/java/com/azoozdriver/ui/splash/SplashViewModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/AzoozDriverApp/app/src/main/java/com/azoozdriver/ui/tracking/TrackingActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/AzoozDriverApp/app/src/main/java/com/azoozdriver/utils/AppConstants.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/AzoozDriverApp/app/src/main/java/com/azoozdriver/utils/CommonUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/AzoozDriverApp/app/src/main/java/com/azoozdriver/utils/NetworkResponse.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/AzoozDriverApp/app/src/main/java/com/azoozdriver/utils/ServerResponseHandler.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/AzoozDriverApp/app/src/main/java/com/azoozdriver/utils/Util.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/AzoozDriverApp/app/src/main/java/com/azoozdriver/utils/UtilConstant.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/AzoozDriverApp/app/src/main/java/com/azoozdriver/utils/Utils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/AzoozDriverApp/app/src/main/res/drawable/custom_radio.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/AzoozDriverApp/app/src/main/res/drawable/dr_rounded_corner.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/AzoozDriverApp/app/src/main/res/layout/activity_forgot_password.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/AzoozDriverApp/app/src/main/res/layout/activity_signin.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/AzoozDriverApp/app/src/main/res/layout/dialog_alert_type.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/AzoozDriverApp/app/src/main/res/layout/dialog_one_button.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/AzoozDriverApp/app/src/main/res/layout/dialog_order_reject.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/AzoozDriverApp/app/src/main/res/layout/fragment_home.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/AzoozDriverApp/app/src/main/res/layout/fragment_order.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/AzoozDriverApp/app/src/main/res/layout/fragment_profile.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/AzoozDriverApp/app/src/main/res/layout/fragment_reset_password.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/AzoozDriverApp/app/src/main/res/layout/fragment_web_view.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/AzoozDriverApp/app/src/main/res/layout/item_notification.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/AzoozDriverApp/app/src/main/res/layout/item_radio_list.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/AzoozDriverApp/app/src/main/res/values-ar/strings.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/AzoozDriverApp/app/src/main/res/values/colors.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/AzoozDriverApp/app/src/main/res/values/strings.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/BoltDriverApp/app/src/main/java/com/boltdriver/activity/ChangeLanguage.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/BoltDriverApp/app/src/main/java/com/boltdriver/activity/OrderDetail.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/BoltDriverApp/app/src/main/java/com/boltdriver/fcm/MyAndroidFireBaseMsgService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/BoltDriverApp/app/src/main/java/com/boltdriver/fragment/FaqFragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/BoltDriverApp/app/src/main/java/com/boltdriver/fragment/NotificationFragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/fanphotographer/AppController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/fanphotographer/activity/PhotoShootStarted.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/fanphotographer/activity/RegistrationFeeActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/fanphotographer/activity/UserLocationActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/fanphotographer/activity/VerifyMobileActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/fanphotographer/data/constant/Constants.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/fanphotographer/fcm/MyFirebaseMessagingService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/fanphotographer/fragment/BookingHistoryFragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_bill_detail.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_enter_mobile.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_verify_mobile.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/fragment_booking_history.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/toolbar.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/PhotoSharing/app/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/PhotoSharing/app/src/main/AndroidManifest.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/PhotoSharing/app/src/main/java/com/photosharing/data/model/DeletePostReponse.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/PhotoSharing/app/src/main/java/com/photosharing/data/model/GetAllPostResponse.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/PhotoSharing/app/src/main/java/com/photosharing/data/model/PlaceApiResponse.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/PhotoSharing/app/src/main/java/com/photosharing/data/model/base/BaseModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/PhotoSharing/app/src/main/java/com/photosharing/data/model/getallposts/GetPostBean.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/PhotoSharing/app/src/main/java/com/photosharing/data/remote/Api.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/PhotoSharing/app/src/main/java/com/photosharing/ui/addmember/AddMemberActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/PhotoSharing/app/src/main/java/com/photosharing/ui/addmember/AddMemberNavigator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/PhotoSharing/app/src/main/java/com/photosharing/ui/addmember/AddMemberViewModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/PhotoSharing/app/src/main/java/com/photosharing/ui/addmember/adapter/UserListAdapter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/PhotoSharing/app/src/main/java/com/photosharing/ui/albumdetail/AlbumDetailActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/PhotoSharing/app/src/main/java/com/photosharing/ui/albumdetail/AlbumDetailNavigator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/PhotoSharing/app/src/main/java/com/photosharing/ui/albumdetail/AlbumDetailViewModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/PhotoSharing/app/src/main/java/com/photosharing/ui/editprofile/EditProfileActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/PhotoSharing/app/src/main/java/com/photosharing/ui/editprofile/EditProfileViewModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/PhotoSharing/app/src/main/java/com/photosharing/ui/groupdetail/GroupDetailActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/PhotoSharing/app/src/main/java/com/photosharing/ui/groupdetail/GroupDetailNavigator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/PhotoSharing/app/src/main/java/com/photosharing/ui/groupdetail/GroupDetailViewModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/PhotoSharing/app/src/main/java/com/photosharing/ui/groupdetail/activityfragment/ActivityBaseViewModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/PhotoSharing/app/src/main/java/com/photosharing/ui/groupdetail/activityfragment/ActivityFragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/PhotoSharing/app/src/main/java/com/photosharing/ui/groupdetail/activityfragment/ActivityNavigator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/PhotoSharing/app/src/main/java/com/photosharing/ui/groupdetail/activityfragment/adapter/NotificationListAdapter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/PhotoSharing/app/src/main/java/com/photosharing/ui/groupdetail/adapter/ShowImageAdapter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/PhotoSharing/app/src/main/java/com/photosharing/ui/groupdetail/adapter/ViewPagerAdapter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/PhotoSharing/app/src/main/java/com/photosharing/ui/groupdetail/albumfragment/AlbumFragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/PhotoSharing/app/src/main/java/com/photosharing/ui/groupdetail/albumfragment/AlbumGroupViewModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/PhotoSharing/app/src/main/java/com/photosharing/ui/groupdetail/albumfragment/AlbumNavigator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/PhotoSharing/app/src/main/java/com/photosharing/ui/groupdetail/albumfragment/adapter/AlbumAdapter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/PhotoSharing/app/src/main/java/com/photosharing/ui/groupdetail/galleryfragment/GalleryBaseViewModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/PhotoSharing/app/src/main/java/com/photosharing/ui/groupdetail/galleryfragment/GalleryFragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/PhotoSharing/app/src/main/java/com/photosharing/ui/groupdetail/galleryfragment/GalleryNavigator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/PhotoSharing/app/src/main/java/com/photosharing/ui/groupdetail/galleryfragment/adapter/GalleryListAdapter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/PhotoSharing/app/src/main/java/com/photosharing/ui/groupdetail/imageslider/SliderNavigator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/PhotoSharing/app/src/main/java/com/photosharing/ui/groupdetail/imageslider/adapter/SliderAdapter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/PhotoSharing/app/src/main/java/com/photosharing/ui/groupdetail/sendlocation/SendLocationActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/PhotoSharing/app/src/main/java/com/photosharing/ui/groupdetail/sendlocation/SendLocationNavigator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/PhotoSharing/app/src/main/java/com/photosharing/ui/groupdetail/sendlocation/SendLocationViewModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/PhotoSharing/app/src/main/java/com/photosharing/ui/groupdetail/sendphotos/PhotoActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/PhotoSharing/app/src/main/java/com/photosharing/ui/groupdetail/sendphotos/PhotoNavigator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/PhotoSharing/app/src/main/java/com/photosharing/ui/groupdetail/sendphotos/PhotoViewModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/PhotoSharing/app/src/main/java/com/photosharing/ui/login/LoginActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/PhotoSharing/app/src/main/java/com/photosharing/ui/login/LoginViewModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/PhotoSharing/app/src/main/java/com/photosharing/ui/mygroup/MyGroupListActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/PhotoSharing/app/src/main/java/com/photosharing/ui/mygroup/MyGroupListNavigator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/PhotoSharing/app/src/main/java/com/photosharing/ui/mygroup/MyGroupViewModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/PhotoSharing/app/src/main/java/com/photosharing/ui/myprofile/MyProfileActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/PhotoSharing/app/src/main/java/com/photosharing/ui/resetpassword/ResetPasswordActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/PhotoSharing/app/src/main/java/com/photosharing/ui/resetpassword/ResetPasswordViewModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/PhotoSharing/app/src/main/java/com/photosharing/ui/signup/SignUpActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/PhotoSharing/app/src/main/java/com/photosharing/ui/signup/SignUpViewModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/PhotoSharing/app/src/main/java/com/photosharing/ui/signup/SignupNavigator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/PhotoSharing/app/src/main/java/com/photosharing/ui/splash/SplashActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/PhotoSharing/app/src/main/java/com/photosharing/ui/splash/SplashNavigator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/PhotoSharing/app/src/main/java/com/photosharing/ui/splash/SplashViewModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/PhotoSharing/app/src/main/java/com/photosharing/utils/AppConstants.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/PhotoSharing/app/src/main/java/com/photosharing/utils/BottomNavigationViewHelper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/PhotoSharing/app/src/main/java/com/photosharing/utils/CommonUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/PhotoSharing/app/src/main/java/com/photosharing/utils/GlobalBus.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/PhotoSharing/app/src/main/java/com/photosharing/utils/NonSwipeableViewPager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/PhotoSharing/app/src/main/java/com/photosharing/utils/RecyclerItemClickListener.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/PhotoSharing/app/src/main/java/com/photosharing/utils/SimpleDividerItemDecoration.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/PhotoSharing/app/src/main/res/layout/a.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/PhotoSharing/app/src/main/res/layout/activity_send_location.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/PhotoSharing/app/src/main/res/layout/custom_grouplist.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/PhotoSharing/app/src/main/res/layout/fragment_album.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/PhotoSharing/app/src/main/res/layout/item_post_five.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/PhotoSharing/app/src/main/res/layout/item_post_four.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/PhotoSharing/app/src/main/res/layout/item_post_one.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/PhotoSharing/app/src/main/res/layout/item_post_three.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/PhotoSharing/app/src/main/res/layout/item_post_two.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/PhotoSharing/app/src/main/res/values/strings.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/Stylize/app/src/main/java/com/stylizeapp/business/beans/CustomBean.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="F:/Stylize/app/src/main/java/com/stylizeapp/webservice/Api.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

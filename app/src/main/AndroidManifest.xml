@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fanphotographer">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+    <uses-permission android:name="android.permission.STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <application
+        android:name=".AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/app_icon"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/GOOGLE_MAPS_API_KEY" />
+
+        <activity
+            android:name=".activity.GetStartedActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.EnterMobileActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.VerifyMobileActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.TermsAndConditionsActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.UpdateProfileActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".activity.SsnActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.IdProofActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.AccountDetailActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".activity.RegistrationFeeActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+
+        <activity
+            android:name=".activity.PhotoShootStarted"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/CropwindowTheme" />
+
+        <activity
+            android:name=".activity.WaitingActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.MenuScreen"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.UserLocationActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.BillDetailActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.ChatActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/GOOGLE_MAPS_API_KEY" />
+
+        <service
+            android:name=".fcm.MyFirebaseMessagingService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".fcm.MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <service
+            android:name=".helper.LocationUpdatesService"
+            android:enabled="true"
+            android:exported="true" />
+
+
+        <service
+            android:name=".helper.TimerService"
+            android:enabled="true"
+            android:process="com.fanphotographer"
+            android:stopWithTask="false" />
+
+      <!--  <service
+            android:name=".utility.ForegroundServiceForUploading"
+            android:enabled="true"
+            android:process=":second"
+            android:exported="true" />
+-->
+
+        <!-- android:stopWithTask="false"  (continue service when application killed)
+-->
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.fanphotographer.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+
+    </application>
+
+</manifest>

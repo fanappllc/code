@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/padding_15"
+    android:gravity="center">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/white_rounded_bg">
+
+        <TextView
+            android:id="@+id/tv_header"
+            fontPath="@string/font_quicksand_medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:padding="15sp"
+            android:text="ALERT"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <RelativeLayout
+            android:id="@+id/relativelayout"
+            android:layout_width="match_parent"
+            android:layout_height="0.8dp"
+            android:layout_below="@+id/tv_header" />
+
+        <RelativeLayout
+            android:id="@+id/relative_layout"
+            android:layout_width="match_parent"
+            android:layout_height="0.8dp"
+
+            android:layout_below="@+id/tv_messages"
+            android:background="@color/light_gray" />
+
+        <!--  <RelativeLayout
+              android:id="@+id/rl"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:gravity="center"
+              android:layout_centerInParent="true"
+              android:layout_below="@+id/tv_messages">
+
+              <com.trackter.helper.CustomTextView
+                  android:id="@+id/button_yes"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:gravity="center"
+                  android:padding="13sp"
+                  android:paddingLeft="10dp"
+                  android:paddingRight="10dp"
+                  android:layout_marginRight="10dp"
+                  android:text="@string/yes_text"
+                  android:textColor="@color/colorPrimary"
+                  android:textSize="16sp"
+                  customfontdemo:fontName="@string/font_RW_regular" />
+
+
+              <com.trackter.helper.CustomTextView
+                  android:id="@+id/button_no"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:gravity="center"
+                  android:layout_marginLeft="10dp"
+                  android:layout_toRightOf="@+id/button_yes"
+                  android:padding="13sp"
+                  android:paddingLeft="10dp"
+                  android:paddingRight="10dp"
+                  android:text="@string/no_text"
+                  android:textColor="@color/colorPrimary"
+                  android:textSize="16sp"
+                  customfontdemo:fontName="@string/font_RW_regular" />
+
+          </RelativeLayout>-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_messages"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/cancelTextView"
+                fontPath="@string/font_quicksand_medium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="CANCEL"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/yesTextView"
+                fontPath="@string/font_quicksand_medium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="YES"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_messages"
+            fontPath="@string/font_quicksand_regular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/relativelayout"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:padding="18sp"
+            android:text="Are you sure you want delete?"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

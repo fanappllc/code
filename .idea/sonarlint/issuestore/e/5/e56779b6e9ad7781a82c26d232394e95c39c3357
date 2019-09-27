@@ -1,0 +1,21 @@
+
+Hsquid:UselessParenthesesCheck"!Remove these useless parentheses.(şÁøş
+Msquid:UselessParenthesesCheck"!Remove these useless parentheses.(óßÚÔúÿÿÿÿ
+fsquid:S1192"LDefine a constant instead of duplicating this literal "onResponse:" 3 times.(ÉÙüŞøÿÿÿÿ
+Asquid:S1068",Remove this unused "mContext" private field.(îã…ş
+Dsquid:S2093"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(õ¼´´ûÿÿÿÿ
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(íùüÿÿÿÿ
+_squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¼›Ğf
+`squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ÚÉ¿Ú
+`squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ÚÉ¿Ú
+`squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ÚÉ¿Ú
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(æƒ›‰şÿÿÿÿ
+‰squid:S1319"tThe type of the "arrayList" object should be an interface such as "List" rather than the implementation "ArrayList".(Ü¢õÎ
+Lsquid:S1905"7Remove this unnecessary cast to "FloatingActionButton".(İ°ÄÇ
+lsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(Ğ¸™áúÿÿÿÿ
+lsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 33 to the 15 allowed.(µãŞ§ÿÿÿÿÿ
+gsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 30 to the 15 allowed.(†ú˜
+gsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.(Ê·óá
+lsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.(ê–ı»şÿÿÿÿ
+hsquid:MaximumInheritanceDepth"<This class has 8 parents which is greater than 5 authorized.(¼‡šÍşÿÿÿÿ

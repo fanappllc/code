@@ -1,0 +1,30 @@
+
+gsquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(Äş¼&
+fsquid:S1192"LDefine a constant instead of duplicating this literal "onResponse:" 3 times.(ÉÙüŞøÿÿÿÿ
+bsquid:S1192"MDefine a constant instead of duplicating this literal "HomeFragment" 5 times.(İ—€
+Isquid:S1066"/Merge this if statement with the enclosing one.(Ô¬Œªüÿÿÿÿ
+Dsquid:S1066"/Merge this if statement with the enclosing one.(ƒ‚¹
+Gsquid:S1199"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+Gsquid:S1199"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+Gsquid:S1199"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+Gsquid:S1199"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+Gsquid:S1199"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+Esquid:S1444"0Make this "public static resideMenu" field final(Àö˜—
+Psquid:S2696"6Make the enclosing method "static" or remove this set.(ÏÓùåüÿÿÿÿ
+ˆ"squid:ClassVariableVisibilityCheck"\Make itemNotification a static final constant or non-public and provide accessors if needed.(Ñ°×Š
+…"squid:ClassVariableVisibilityCheck"YMake appPreference a static final constant or non-public and provide accessors if needed.(äçë
+‹"squid:ClassVariableVisibilityCheck"ZMake countDownTimer a static final constant or non-public and provide accessors if needed.(ì›‰¢ùÿÿÿÿ
+lsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 27 to the 15 allowed.(Ğ¸™áúÿÿÿÿ
+gsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.(†ú˜
+gsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.(Ôûç‚
+gsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 30 to the 15 allowed.(ïºÒÀ
+dsquid:CallToDeprecatedMethod">Remove this use of "isUserRecoverableError"; it is deprecated.(Š¤ù
+asquid:CallToDeprecatedMethod"6Remove this use of "getErrorDialog"; it is deprecated.(£Û–Üıÿÿÿÿ
+^squid:CallToDeprecatedMethod"8Remove this use of "FusedLocationApi"; it is deprecated.(ª»„
+^squid:CallToDeprecatedMethod"8Remove this use of "FusedLocationApi"; it is deprecated.(€È½Ã
+csquid:CallToDeprecatedMethod"8Remove this use of "FusedLocationApi"; it is deprecated.(Ç™ìÿÿÿÿÿ
+Wsquid:S00107"<Method has 9 parameters, which is greater than 7 authorized.(»„âøıÿÿÿÿ
+gsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼ªÛÕ
+lsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜¯ş¦úÿÿÿÿ
+gsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÇøÔª
+csquid:MaximumInheritanceDepth"<This class has 6 parents which is greater than 5 authorized.(Ø†ï¼

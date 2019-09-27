@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/contact_bacground"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbar_enter_mobile"
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar_enter_mobile">
+
+        <fragment
+            android:id="@+id/fragmentMap1"
+            class="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_chat_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:scaleType="center"
+            android:src="@mipmap/message"
+            app:backgroundTint="@color/green" />
+
+        <!--<android.support.design.widget.FloatingActionButton-->
+        <!--android:id="@+id/fab"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginBottom="20dp"-->
+        <!--android:layout_marginLeft="20dp"-->
+        <!--android:src="@mipmap/message" />-->
+
+        <TextView
+            android:id="@+id/textView_mint"
+            fontPath="@string/font_quicksand_medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/fab_chat_button"
+            android:layout_toLeftOf="@+id/framelayout"
+            android:background="@color/white"
+            android:gravity="center"
+            android:padding="13sp"
+            android:text="05 Minutes to reach"
+            android:textColor="@color/gray"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/button_cancel"
+            fontPath="@string/font_quicksand_medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView_mint"
+            android:background="@color/dark_orange"
+            android:gravity="center"
+            android:padding="13sp"
+            android:text="@string/cancel"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+</RelativeLayout>

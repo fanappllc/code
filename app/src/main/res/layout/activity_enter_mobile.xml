@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:ignore="MissingPrefix">
+
+    <include
+        android:id="@+id/toolbar_enter_mobile"
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/blue_bottom_btn_selector">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="@dimen/padding_30"
+            android:layout_marginTop="@dimen/padding_15"
+            android:src="@mipmap/code_send" />
+
+    </RelativeLayout>
+
+
+    <TextView
+        fontPath="@string/font_quicksand_regular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding_30"
+        android:gravity="center"
+        android:lineSpacingExtra="5dp"
+        android:paddingLeft="@dimen/padding_20"
+        android:paddingRight="@dimen/padding_20"
+        android:text="@string/need_number_msg"
+        android:textColor="@color/black"
+        android:textSize="@dimen/size_16" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/padding_20"
+        android:layout_marginRight="@dimen/padding_20"
+        android:layout_marginTop="@dimen/padding_30"
+        android:background="@drawable/gray_border_bg"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/imageViewSendCode"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textViewCountryCode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="@dimen/padding_10"
+                android:drawableRight="@mipmap/dropdown"
+                android:paddingLeft="@dimen/padding_10"
+                android:paddingRight="@dimen/padding_10"
+                android:text="+1"
+                android:textSize="@dimen/size_18" />
+
+            <View
+                android:layout_width="0.8dp"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/textViewCountryCode"
+                android:background="@color/gray" />
+
+            <EditText
+                android:id="@+id/mobile_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/transparent"
+                android:hint="Enter mobile number"
+                android:inputType="number"
+                android:letterSpacing="0.1"
+                android:maxLength="10"
+                android:maxLines="1"
+                android:padding="@dimen/padding_15"
+                android:textSize="@dimen/size_16" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageViewSendCode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingBottom="@dimen/padding_15"
+            android:paddingRight="15dp"
+            android:paddingTop="@dimen/padding_15"
+            android:src="@mipmap/next_arrow" />
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

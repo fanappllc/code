@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/toolbar_enter_mobile"
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <LinearLayout
+        android:id="@+id/normat_la"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar_enter_mobile"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/padding_30"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/imageView_loading"
+            fontPath="@string/font_quicksand_medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="00:00:00"
+            android:textColor="@color/dark_orange"
+            android:textSize="40sp" />
+
+        <TextView
+            fontPath="@string/font_quicksand_medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:visibility="gone"
+            android:text="@string/text"
+            android:textColor="@color/dark_orange"
+            android:textSize="@dimen/size_14" />
+
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/progressLayout"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="@dimen/padding_20"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/normat_la"
+        android:gravity="center">
+
+        <FrameLayout
+            android:layout_width="230dp"
+            android:layout_height="230dp">
+
+            <RelativeLayout
+                android:layout_width="220dp"
+                android:layout_height="220dp"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+                <com.fanphotographer.helper.RingProgressBar
+                    android:id="@+id/progress_bar_1"
+                    android:layout_width="220dp"
+                    android:layout_height="220dp"
+                    app:ringColor="@color/light_gray"
+                    app:ringProgressColor="@color/colorPrimary"
+                    app:ringWidth="5dp"
+                    app:style="STROKE"
+                    app:textColor="@color/white"
+                    app:textIsShow="true"
+                    app:textSize="16sp" />
+
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:id="@+id/threeLayout"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:background="@drawable/white_circular_view_bg"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/profile_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/default_user" />
+
+
+            </LinearLayout>
+
+
+        </FrameLayout>
+
+
+    </RelativeLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/cemara_floatButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/progressLayout"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp"
+        android:scaleType="center"
+        android:src="@mipmap/edit_camera"
+        app:backgroundTint="@color/light_orange" />
+
+
+    <TextView
+        fontPath="@string/font_quicksand_medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:visibility="gone"
+        android:layout_above="@+id/show_text"
+        android:text="@string/genral_text"
+        android:textColor="@color/dark_orange"
+        android:textSize="@dimen/size_14" />
+
+    <TextView
+        android:id="@+id/show_text"
+        fontPath="@string/font_quicksand_regular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:paddingLeft="35dp"
+        android:paddingRight="35dp"
+        android:textColor="@color/light_gray_new"
+        android:textSize="@dimen/size_12" />
+
+
+</RelativeLayout>
+

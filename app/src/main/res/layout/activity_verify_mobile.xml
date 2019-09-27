@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingPrefix"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbar_enter_mobile"
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/blue_bottom_btn_selector">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="@dimen/padding_30"
+            android:layout_marginTop="@dimen/padding_15"
+            android:src="@mipmap/code_recieved" />
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/mobileTextView"
+        fontPath="@string/font_quicksand_regular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding_30"
+        android:gravity="center"
+        android:lineSpacingExtra="@dimen/padding_5"
+        android:paddingLeft="@dimen/padding_20"
+        android:paddingRight="@dimen/padding_20"
+        android:text="@string/send_verification_msg"
+        android:textColor="@color/black"
+        android:textSize="@dimen/size_16" />
+
+    <LinearLayout
+        android:id="@+id/layoutPinCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/padding_30"
+        android:layout_marginRight="@dimen/padding_30"
+        android:layout_marginTop="@dimen/padding_30">
+
+        <com.fanphotographer.helper.PinEntryEditText
+            android:id="@+id/pinVerifyCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/padding_5"
+            android:layout_marginTop="@dimen/padding_5"
+            android:background="@null"
+            android:cursorVisible="false"
+            android:digits="1234567890"
+            android:gravity="center_vertical"
+            android:inputType="number"
+            android:maxLength="4"
+            android:padding="@dimen/padding_20"
+            android:textIsSelectable="false"
+            android:textSize="@dimen/size_22"
+            android:visibility="visible"
+            app:pinAnimationType="fromBottom"
+            app:pinBackgroundDrawable="@drawable/edittext_pin_background" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text_resend"
+        fontPath="@string/font_josefinsans_medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding_30"
+        android:layout_gravity="center"
+        android:paddingLeft="@dimen/padding_20"
+        android:textStyle="bold"
+        android:paddingRight="@dimen/padding_20"
+        android:text="@string/resend_otp"
+        android:textColor="@color/dark_orange"
+        android:textSize="@dimen/size_16" />
+
+
+</LinearLayout>

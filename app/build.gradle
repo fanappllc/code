@@ -1,0 +1,58 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 27
+    defaultConfig {
+        applicationId "com.fanphotographer"
+        minSdkVersion 14
+
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    implementation project(':ResideMenu')
+    implementation project(':ImageCropperLibrar')
+    //noinspection GradleCompatible
+    implementation 'com.android.support:appcompat-v7:27.1.1'
+    implementation 'com.android.support:recyclerview-v7:27.1.1'
+    implementation 'com.android.support:cardview-v7:27.1.1'
+    implementation 'com.android.support:design:27.1.1'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    implementation 'com.firebase:firebase-jobdispatcher:0.8.5'
+    implementation 'com.daimajia.swipelayout:library:1.2.0'
+    implementation 'uk.co.chrisjenx:calligraphy:2.3.0'
+    implementation 'com.squareup.retrofit2:retrofit:2.0.2'
+    implementation 'com.squareup.retrofit2:converter-gson:2.0.2'
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.2.0'
+    implementation 'com.wang.avi:library:2.1.3'
+    implementation 'com.github.bumptech.glide:glide:4.6.1'
+    implementation 'com.google.android.gms:play-services-maps:11.8.0'
+    implementation 'com.google.android.gms:play-services-location:11.8.0'
+    implementation 'com.google.android.gms:play-services-auth:11.8.0'
+    implementation 'com.google.firebase:firebase-messaging:11.8.0'
+    implementation 'com.stripe:stripe-android:4.1.5'
+    androidTestImplementation 'junit:junit:4.12'
+    implementation 'me.leolin:ShortcutBadger:1.1.16@aar'
+    implementation 'id.zelory:compressor:2.1.0'
+    implementation 'de.hdodenhof:circleimageview:2.2.0'
+    implementation 'com.github.castorflex.smoothprogressbar:library-circular:1.3.0'
+    implementation('io.socket:socket.io-client:0.7.0') {
+        exclude group: 'org.json', module: 'json'
+    }
+}
+apply plugin: 'com.google.gms.google-services'
+

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#5AC8F9</color>
+    <color name="colorPrimaryDark">#4FDFFA</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="sweet_dialog_bg_color">#FFFFFF</color>
+    <color name="error_stroke_color">#F27474</color>
+    <color name="float_transparent">#00000000</color>
+    <color name="blue_btn_bg_pressed_color">#96BFD2</color>
+    <color name="button_text_color">#FFFFFF</color>
+    <color name="blue_btn_bg_color">#AEDEF4</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="darkblack">#111111</color>
+    <color name="black_edit">#222222</color>
+    <color name="green">#19DEB1</color>
+    <color name="light_gray">#F7F7F7</color>
+    <color name="dark_gray">#545454</color>
+    <color name="gray">#999999</color>
+    <color name="sky_blue">#5AC8F9</color>
+    <color name="turquoise_blue">#4FF1FC</color>
+    <color name="light_orange">#FE8D01</color>
+    <color name="dark_orange">#FE6700</color>
+    <color name="dark_purple">#5D73FB</color>
+    <color name="light_purple">#98A7FC</color>
+    <color name="transparent">#00000000</color>
+    <color name="light_gray_new">#A1A1A1</color>
+    <color name="gray_sep">#E0E0E0</color>
+    <color name="hint_gray">#67696A</color>
+    <color name="yellow">#FED943</color>
+
+    <integer-array name="gplus_colors">
+        <item>@color/turquoise_blue</item>
+        <item>@color/sky_blue</item>
+    </integer-array>
+
+
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl_get_stared_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/intro_bg_third"
+    tools:ignore="MissingPrefix"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/getStarted1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#50000000"
+        android:visibility="visible">
+
+        <RelativeLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/padding_10">
+
+
+            <RelativeLayout
+                android:id="@+id/docRelative"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/docImage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@mipmap/splash_logo" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/docRelative"
+                android:layout_marginTop="@dimen/size_26">
+
+                <TextView
+                    android:id="@+id/textViewShare"
+                    fontPath="@string/font_josefinsans_medium"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/padding_20"
+                    android:text="@string/happy_to_share"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/size_22"
+                    android:textStyle="bold" />
+
+                <TextView
+                    fontPath="@string/font_quicksand_regular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textViewShare"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/padding_10"
+                    android:gravity="center"
+                    android:lineSpacingExtra="3dp"
+                    android:paddingLeft="@dimen/padding_20"
+                    android:paddingRight="@dimen/padding_20"
+                    android:text="@string/short_dummy_text"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/size_18" />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </FrameLayout>
+
+</RelativeLayout>

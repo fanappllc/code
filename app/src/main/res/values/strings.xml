@@ -1,0 +1,208 @@
+<resources>
+    <string name="app_name">Fan Photographer</string>
+
+    <!--Splash & Intro Screen-->
+    <string name="get_started">GET STARTED</string>
+    <!--<string name="find_photographer">Find a Photographer</string>-->
+    <string name="find_photographer">The World\'s First Selfie Assistant App</string>
+    <string name="pose_for_short">Pose for a short</string>
+
+    <string name="happy_to_share">Happy to Share</string>
+    <string name="short_dummy_text">Snap Photos of Customers and get paid doing it&#33;</string>
+
+    <!--<string name="GOOGLE_MAPS_API_KEY">AIzaSyAgzA-bNxp54VsFrLIMGLLo0PKpg5rurzo</string>-->
+    <string name="GOOGLE_MAPS_API_KEY">AIzaSyCELZI6cQ0YoUrunZg4MHbJ5ZmssNA-NNI</string>
+
+    <!--Mobile Verification-->
+    <string name="need_number_msg">We need your phone number to authenticate your account</string>
+    <string name="send_verification_msg">We have sent an One Time Password on your number +1 8109824535</string>
+    <string name="mobile_verification">Mobile Verification</string>
+    <string name="verifying_your_number">Verifying Your Number!</string>
+    <string name="resend_otp">RESEND OTP?</string>
+
+    <string name="text">The Camera should just snap the photo, rather than given option to adjust it. Also, photographer should be able to take more than one photo at a time, without it taking him back out to this screen</string>
+    <string name="genral_text">Session will end after 1 hour , or user can end it anytime</string>
+
+    <!--Update Profile-->
+    <string name="profile_detail">Profile Detail</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email">Email</string>
+    <string name="address">Address</string>
+    <string name="zip_code">Zip Code</string>
+    <string name="verified_mobile">Verified Mobile</string>
+    <string name="mobile_model">Mobile Model</string>
+    <string name="submit">SUBMIT</string>
+    <string name="user_pic_to">Please select Profile Pic</string>
+
+    <!--Add Credit Card-->
+    <string name="new_card">New Card</string>
+    <string name="card_holder_name">Card Holder Name</string>
+    <string name="expires_on">Expires on</string>
+    <string name="cvv_cvc">CVV/CVC</string>
+    <string name="save_card">Save this Card</string>
+    <string name="add">ADD</string>
+    <string name="cloud">SYNC FROM CLOUD</string>
+    <!--Terms and Condition-->
+    <string name="technology">Technology/photography Services Agreement</string>
+    <string name="text_continue">CONTINUE</string>
+    <string name="condition">I agree to fan\'s terms &amp; conditions</string>
+    <string name="terms_and_conditions">Terms &amp; Conditions</string>
+
+    <!--SSN-->
+    <string name="ssn">SSN</string>
+    <string name="for_authontication">For authentication purpose.we need your security Number for sample background check.</string>
+    <string name="social_security">Social Security Number</string>
+    <string name="radio_one">Remain private - Naver shared</string>
+    <string name="radio_two">No credit check - credit won\'t be affected</string>
+    <string name="radio_three">Information is safe &amp; secure</string>
+
+    <!--ID Proof-->
+    <string name="id_proof">ID Proof</string>
+    <string name="id_headding">Take a photo of your&#160; Driving License</string>
+    <string name="driving_license">Driving License</string>
+    <string name="id_sub_header">Make sure your driving license is not expired and avoid using the flash so that your information is clear and visible</string>
+    <string name="save">SAVE</string>
+    <string name="tap_to">Tap here to browse picture</string>
+    <string name="pic_to">Please select Id Proof</string>
+
+    <!--Account Detail-->
+    <string name="account_deatil">Account Detail</string>
+    <string name="enter_your_txt">Enter your Account details, where you want to recieve payment.</string>
+    <string name="name">Name</string>
+    <string name="full_name">Full Name</string>
+    <string name="routing">Routing Number</string>
+    <string name="account">Account Number</string>
+    <string name="confirm_account">Confirm Account Number</string>
+    <string name="pay_regis">PAY REGISTRATION FEE</string>
+
+    <!--Account Detail-->
+    <string name="registrarion_fee">Registration Fee</string>
+    <string name="total_amount">Total amount</string>
+    <string name="enter_card_detail">Enter your credit card details</string>
+    <string name="cardnumber">Card Number</string>
+    <string name="pay">PAY</string>
+
+    <!--Left Menu-->
+    <string name="home">Home</string>
+    <string name="my_photos">My Photos</string>
+    <string name="manage_card">Manage Card</string>
+    <string name="booking_history">Booking History</string>
+    <string name="notifications">Notifications</string>
+    <string name="faq">Faq</string>
+    <string name="terms_and_conditions_menu">Terms &amp; Conditions</string>
+    <string name="contact">Contact</string>
+    <string name="contact_us">Contact us</string>
+    <string name="logout">Logout</string>
+
+    <!--Item Notification-->
+    <string name="accept">ACCEPT</string>
+    <string name="decline">DECLINE</string>
+    <string name="hour">01:00 Hour</string>
+    <string name="min">05 Min</string>
+    <string name="mike">Mike</string>
+    <string name="date_with_time">Aug 18,2017 11:55 AM</string>
+    <string name="oilverio">1260 Oilverio Drive, Tutor Key,US</string>
+
+    <!--Profile View-->
+    <string name="edit">EDIT</string>
+    <string name="profile_View">Profile View</string>
+    <string name="profile_edit">Profile Edit</string>
+
+
+    <string name="proceed_message">Proceed By Customer</string>
+    <string name="accept_message">Waiting.. for customer response !.. </string>
+    <!--Log Out Dialog-->
+    <string name="logout_alert">Sign Out</string>
+    <string name="want_to_logout">Are you sure, you want to logout?</string>
+    <string name="stay_in">Stay In</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="payment">Payment</string>
+    <string name="you_credit_card_will_be_charged">You credit card will be charged</string>
+    <string name="confirm">CONFIRM</string>
+
+    <string name="log_out">Logout</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="dialog_ok">OK</string>
+
+
+    <string name="oops">Oops...</string>
+    <string name="fan">Fan</string>
+    <string name="no_internet">No internet connection!</string>
+    <string name="request_pending">Your Request is pending for approvel..</string>
+    <!--Application Font-->
+    <string name="font_quicksand_regular">fonts/Quicksand-Regular.ttf</string>
+    <string name="font_quicksand_medium">fonts/Quicksand-Medium.ttf</string>
+    <string name="font_josefinsans_medium">fonts/JosefinSans-Regular.ttf</string>
+    <string name="cancel">CANCEL</string>
+    <string name="user_location">User Location</string>
+    <string name="start">START</string>
+    <string name="google_browser_key">AIzaSyDztPe6a6h-DayWs7Jy3qw_TAui0UBED9s</string>
+    <string name="photo_shoot">Photoshoot Started</string>
+    <string name="bill_detail">Bill Detail</string>
+    <string name="total_bill">Total Bill</string>
+
+    <string name="no_conversation_yet">No Conversation yet!!</string>
+    <string name="Please_enter_mobile_number">Please enter mobile number</string>
+    <string name="Please_enter_valid_number">Please enter 10 digits mobile number</string>
+    <string name="select_code">Please select country code</string>
+    <string name="country">COUNTRY</string>
+    <string name="okk">OK</string>
+    <string name="alert">Alert !</string>
+    <string name="confirm_dialog_title">Confirm!</string>
+
+    <string name="location_updated">Location Updated: %1$s</string>
+    <string name="enter_valid_email_id">Please enter valid email id</string>
+    <string name="Please_enter_first_name">Please Enter First Name</string>
+    <string name="Please_enter_last_name">Please Enter Last Name</string>
+    <string name="Please_enter_zip_code">Please Enter Zip Code</string>
+    <string name="Please_enter_address">Please Enter Address</string>
+    <string name="Please_enter_mobile_modal">Please Enter Modal Number</string>
+    <string name="Please_enter_email_address">Please Enter Email Address</string>
+    <string name="terms_and_conditions_message">Please accept terms &amp; condition</string>
+
+    <string name="Please_social_security">Please Enter Social Security Number</string>
+    <string name="failled">Failed server or network connection, please try again</string>
+    <string name="com_stripe_publishable_key">pk_test_PXJXzT4pZI6A1cMC4MtNB0ph</string>
+
+    <string name="please_enter_card_number">Please enter card number</string>
+    <string name="please_enter_valid_card_number">Please enter 16 digits valid card number</string>
+    <string name="please_enter_expire_date">Please enter card expire month and year</string>
+    <string name="please_enter_card_holder_name">Please enter card holder name</string>
+    <string name="please_enter_cvv">Please enter CVV/CVC number</string>
+    <string name="please_enter_valid_cvv_number">Please enter 3 digit vaild cvv number</string>
+    <string name="Please_enter_valid_date_formate">Please enter expire month and year into MM/YYYY formate</string>
+
+
+    <string name="unauthorize_access">Your last login session is expired, please login again.</string>
+    <string name="https_400_error">Bad Request</string>
+    <string name="http_401_error">Unauthorized access</string>
+    <string name="http_403_error">Forbidden or denied access</string>
+    <string name="http_404_error">Resource Not Found</string>
+    <string name="http_402_error">Payment Required</string>
+    <string name="http_405_error">Method Not Allowed</string>
+    <string name="http_406_error">Not Acceptable</string>
+    <string name="http_408_error">Request Time out</string>
+    <string name="http_409_error">conflict in the request</string>
+    <string name="http_500_error">Internal Server Error</string>
+    <string name="http_501_error">Not Implemented</string>
+    <string name="http_503_error">Service Unavailable</string>
+    <string name="http_522_error">Connection Timed Out</string>
+    <string name="http_520_error">Unknown Error</string>
+    <string name="http_526_error">Invalid SSL Certificate</string>
+    <string name="http_599_error">Network connect timeout error</string>
+
+    <string name="take_photo">Take Photo</string>
+    <string name="select_img">Select Image</string>
+    <string name="photo_lib">Photo Library</string>
+
+    <string name="start_photography">Start Photography</string>
+    <string name="please_confirm">Please Confirm</string>
+    <string name="cancel_booking">Cancel Booking</string>
+
+    <string name="unable_to">Unable to reach on location.</string>
+    <string name="locating_is">Location is too far.</string>
+    <string name="gps_is">GPS is not locating</string>
+
+</resources>
