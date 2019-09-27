@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/white_rounded_bg">
+
+        <TextView
+            android:id="@+id/textview__header"
+            fontPath="@string/font_quicksand_medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Promocode"
+            android:textColor="@color/black_edit"
+            android:textSize="20sp" />
+
+
+        <TextView
+            android:id="@+id/textview__new_message"
+            fontPath="@string/font_quicksand_regular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textview__header"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:lineSpacingExtra="5dp"
+            android:text="Do you have any Promocode?"
+            android:textColor="@color/dark_gray"
+            android:textSize="14sp"
+            android:visibility="visible" />
+
+        <EditText
+            android:id="@+id/promoCodeEditText"
+            fontPath="@string/font_quicksand_regular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textview__new_message"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/gray_border_bg"
+            android:gravity="left"
+            android:hint="Enter promocode"
+            android:padding="8dp"
+            android:singleLine="true"
+            android:textColor="@color/black_edit"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:id="@+id/rl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/promoCodeEditText"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0.8dp"
+                android:background="@color/light_gray" />
+
+            <TextView
+                android:id="@+id/apply_button"
+                fontPath="@string/font_quicksand_medium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/apply"
+                android:textColor="#0040DD"
+                android:textSize="16sp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0.8dp"
+                android:background="@color/light_gray" />
+
+            <TextView
+                android:id="@+id/dontPromoCodeTextView"
+                fontPath="@string/font_quicksand_medium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/dont_promo"
+                android:textColor="#0040DD"
+                android:textSize="16sp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0.8dp"
+                android:background="@color/light_gray" />
+
+            <TextView
+                android:id="@+id/button_cancel"
+                fontPath="@string/font_quicksand_medium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/cancel"
+                android:textColor="#0040DD"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</RelativeLayout>

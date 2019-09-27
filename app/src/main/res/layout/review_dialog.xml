@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="30dp"
+    android:background="@android:color/transparent"
+    android:gravity="center">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/white_rounded_bg">
+
+        <TextView
+            android:id="@+id/textview__header"
+            fontPath="@string/font_quicksand_medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:padding="13dp"
+            android:text="Renew Session"
+            android:textColor="@color/black_edit"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/textview__new_message"
+            fontPath="@string/font_quicksand_regular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textview__header"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Your session will end in '5 minutes' Do you want to extend thr time"
+            android:textColor="@color/dark_gray"
+            android:textSize="16sp"
+            android:visibility="visible" />
+
+
+        <RelativeLayout
+            android:id="@+id/relativelayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textview__new_message"
+            android:background="@color/light_gray" />
+
+
+        <!--  <ScrollView
+
+              android:layout_width="match_parent"
+              android:layout_below="@+id/relativelayout"
+              android:layout_height="130dp">-->
+
+
+        <LinearLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_below="@+id/relativelayout"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.10" />
+
+
+            <ListView
+                android:id="@+id/listview"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.85" />
+
+
+        </LinearLayout>
+
+        <!--     </ScrollView>-->
+
+        <!--  <TextView
+              android:id="@+id/textview__messages"
+              fontPath="@string/font_quicksand_medium"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/relativelayout"
+              android:layout_centerHorizontal="true"
+              android:gravity="center"
+              android:lineSpacingExtra="3dp"
+              android:padding="18sp"
+              android:text="@string/please_confirm"
+              android:textColor="@color/light_gray_new"
+              android:textSize="16sp" />-->
+
+
+        <RelativeLayout
+            android:id="@+id/relative_layout"
+            android:layout_width="match_parent"
+            android:layout_height="0.8dp"
+            android:layout_below="@+id/container"
+            android:background="@color/light_gray" />
+
+
+        <RelativeLayout
+            android:id="@+id/rl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/relative_layout">
+
+            <TextView
+                android:id="@+id/yes"
+                fontPath="@string/font_quicksand_medium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_toLeftOf="@+id/framelayout"
+                android:gravity="center"
+                android:padding="13sp"
+                android:text="@string/yes"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16sp" />
+
+            <FrameLayout
+                android:id="@+id/framelayout"
+                android:layout_width="0.8dp"
+                android:layout_height="39sp"
+                android:layout_centerInParent="true"
+                android:background="@color/light_gray"
+                android:clipToPadding="true"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:layoutMode="clipBounds" />
+
+            <TextView
+                android:id="@+id/no"
+                fontPath="@string/font_quicksand_medium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@+id/framelayout"
+                android:gravity="center"
+                android:padding="13sp"
+                android:text="@string/no"
+                android:textColor="@color/colorAccent"
+                android:textSize="16sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbar_enter_mobile"
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="15dp"
+            android:src="@mipmap/code_recieved" />
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/mobileTextView"
+        fontPath="@string/font_quicksand_regular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:lineSpacingExtra="5dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="@string/send_verification_msg"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:id="@+id/layoutPinCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dp">
+
+        <com.fancustomer.helper.PinEntryEditText
+            android:id="@+id/pinVerifyCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@null"
+            android:cursorVisible="false"
+            android:digits="1234567890"
+            android:gravity="center_vertical"
+            android:inputType="number"
+            android:maxLength="4"
+            android:padding="20dp"
+            android:textIsSelectable="false"
+            android:textSize="22sp"
+            android:visibility="visible"
+            app:pinAnimationType="fromBottom"
+            app:pinBackgroundDrawable="@drawable/edittext_pin_background" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/resendTextView"
+        fontPath="@string/font_josefinsans_medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:paddingLeft="20dp"
+        android:textStyle="bold"
+        android:paddingRight="20dp"
+        android:text="@string/resend_otp"
+        android:textColor="@color/dark_orange"
+        android:textSize="16sp" />
+
+
+</LinearLayout>

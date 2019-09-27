@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/white_rounded_bg">
+
+        <TextView
+            android:id="@+id/textview__header"
+            fontPath="@string/font_quicksand_medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:padding="13dp"
+            android:text="@string/logout_alert"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <RelativeLayout
+            android:id="@+id/relativelayout"
+            android:layout_width="match_parent"
+            android:layout_height="0.8dp"
+            android:layout_below="@+id/textview__header"
+            android:background="@color/light_gray" />
+
+        <RelativeLayout
+            android:id="@+id/relative_layout"
+            android:layout_width="match_parent"
+            android:layout_height="0.8dp"
+            android:layout_below="@+id/textview__messages"
+            android:background="@color/light_gray" />
+
+
+        <TextView
+            android:id="@+id/textview__new_message"
+            fontPath="@string/font_quicksand_medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textview__header"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:padding="18sp"
+            android:text="@string/want_to_logout"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/textview__messages"
+            fontPath="@string/font_quicksand_medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textview__new_message"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:lineSpacingExtra="3dp"
+            android:padding="18sp"
+            android:text="@string/want_to_logout"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <RelativeLayout
+            android:id="@+id/rl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textview__messages">
+
+            <TextView
+                android:id="@+id/button_cancel"
+                fontPath="@string/font_quicksand_medium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_toLeftOf="@+id/framelayout"
+                android:gravity="center"
+                android:padding="13sp"
+                android:text="@string/stay_in"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <FrameLayout
+                android:id="@+id/framelayout"
+                android:layout_width="0.8dp"
+                android:layout_height="39sp"
+                android:layout_centerInParent="true"
+                android:background="@color/light_gray"
+                android:clipToPadding="true"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:layoutMode="clipBounds" />
+
+            <TextView
+                android:id="@+id/button_ok"
+                fontPath="@string/font_quicksand_medium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@+id/framelayout"
+                android:gravity="center"
+                android:padding="13sp"
+                android:text="@string/sign_out"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

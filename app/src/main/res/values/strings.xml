@@ -1,0 +1,196 @@
+<resources>
+    <string name="app_name">Fan Customer</string>
+
+    <!--Google api credential ON FIREBASE
+    (Project Name : FanCustomer)
+    ( Email : codiant.solution2109@gmail.com, Password : neuron@123 )-->
+    <!--<string name="GOOGLE_MAPS_API_KEY">AIzaSyAgzA-bNxp54VsFrLIMGLLo0PKpg5rurzo</string>-->
+
+    <string name="GOOGLE_MAPS_API_KEY">AIzaSyDD6RGldyWViqcLWByawZtw90oRcw5jFXs</string>
+
+
+    <!--Splash & Intro Screen-->
+    <string name="get_started">GET STARTED</string>
+    <string name="fan_world">Fan - World’s First On Demand Selfie Assistant</string>
+    <string name="pose_for_short">Pose for a shot… or not, your choice!</string>
+    <string name="download_and_share">Download and share your photos</string>
+
+
+    <string name="find_amateur_photo">Find amateur photographers near you with one click at an affordable price. Don’t worry, your photos will only be available and viewable on your phone alone</string>
+    <string name="you_fan_photo">Your fan photographer will be available for you, to snap up to 75 photographs in 30 minutes, and an additional 50 photos each additional 30 minutes.</string>
+
+    <string name="your_photos_will_be">Your photos will be available almost instantly for you to view, download, and share right from your phone.</string>
+    <string name="short_dummy_text">Lorem ipsum is a pseudo-Latin text used in web design typography layout and printing content</string>
+
+
+    <!--Mobile Verification-->
+    <string name="need_number_msg">We need your phone number to authenticate your account</string>
+    <string name="send_verification_msg">We have sent an One Time Password on your number +1 8109824535</string>
+    <string name="mobile_verification">Mobile Verification</string>
+    <string name="verifying_your_number">Verifying Your Number!</string>
+    <string name="resend_otp">RESEND OTP?</string>
+
+
+    <!--Update Profile-->
+    <string name="profile_detail">Profile Detail</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email">Email</string>
+    <string name="address">Address</string>
+    <string name="zip_code">Zip code</string>
+    <string name="verified_mobile">Verified Mobile</string>
+    <string name="submit">SUBMIT</string>
+
+    <!--Add Credit Card-->
+    <string name="add_credit_card">Add Credit Card</string>
+    <string name="new_card">New Card</string>
+    <string name="card_number">Card Number</string>
+    <string name="card_holder_name">Card Holder Name</string>
+    <string name="expires_on">Expires on</string>
+    <string name="cvv_cvc">CVV/CVC</string>
+    <string name="save_card">Save this Card</string>
+    <string name="add">ADD</string>
+
+    <!--Left Menu-->
+    <string name="home">Home</string>
+    <string name="my_photos">My Photos</string>
+    <string name="manage_card">Manage Card</string>
+    <string name="booking_history">Booking History</string>
+    <string name="notifications">Notifications</string>
+    <string name="faq">Faq</string>
+    <string name="terms_and_conditions">Terms &amp; Conditions</string>
+    <string name="contact">Contact</string>
+    <string name="complain">Complaint</string>
+    <string name="contact_us">Contact us</string>
+    <string name="logout">Logout</string>
+
+    <!--Home Screen-->
+    <string name="nearest_photographer">Nearest Photographer</string>
+    <string name="select_session_msg">Select the duration of your fan photographer session</string>
+    <string name="request_now">REQUEST NOW</string>
+    <string name="first_session_time">30 Mins</string>
+    <string name="second_session_time">1 Hour</string>
+    <string name="third_session_time">1.5 Hour</string>
+    <string name="four_session_time">2 Hour</string>
+    <string name="first_session_price">Price:$30</string>
+    <string name="second_session_price">Price:$50</string>
+    <string name="third_session_price">Price:$70</string>
+    <string name="four_session_price">Price:$90</string>
+    <string name="getting_photographer">Getting a photographer near you...</string>
+
+    <!--Application Font-->
+    <string name="font_quicksand_regular">fonts/Quicksand-Regular.ttf</string>
+    <string name="font_quicksand_medium">fonts/Quicksand-Medium.ttf</string>
+    <string name="font_josefinsans_medium">fonts/JosefinSans-Regular.ttf</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--Profile View-->
+
+    <string name="edit">EDIT</string>
+    <string name="profile_View">Profile View</string>
+
+
+    <string name="cancel_photoshoot">Cancel Photoshoot</string>
+
+    <string name="you_wil_be_charged_a_cancellation">you will be charged a cancellation fee of</string>
+
+
+    <string name="unauthorize_access">Your last login session is expired, please login again.</string>
+    <string name="https_400_error">Bad Request</string>
+    <string name="http_401_error">Unauthorized access</string>
+    <string name="http_403_error">Forbidden or denied access</string>
+    <string name="http_404_error">Resource Not Found</string>
+    <string name="http_402_error">Payment Required</string>
+    <string name="http_405_error">Method Not Allowed</string>
+
+
+    <string name="http_406_error">Not Acceptable</string>
+    <string name="http_408_error">Request Time out</string>
+    <string name="http_409_error">conflict in the request</string>
+    <string name="http_500_error">Internal Server Error</string>
+    <string name="http_422_error">Unprocessable Entity Error</string>
+    <string name="http_501_error">Not Implemented</string>
+    <string name="http_503_error">Service Unavailable</string>
+    <string name="http_522_error">Connection Timed Out</string>
+    <string name="http_520_error">Unknown Error</string>
+    <string name="http_526_error">Invalid SSL Certificate</string>
+    <string name="http_599_error">Network connect timeout error</string>
+
+
+    <!--Booking History-->
+
+    <!--Log Out Dialog-->
+    <string name="logout_alert">Sign Out</string>
+    <string name="want_to_logout">Are you sure, you want to Sign Out?</string>
+    <string name="stay_in">Stay In</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="payment">Payment</string>
+    <string name="you_credit_card_will_be_charged">You credit card will be charged</string>
+    <string name="confirm">CONFIRM</string>
+    <string name="apply">Apply</string>
+    <string name="dont_promo">Don\'t have Promocode</string>
+
+    <!--Booking Confirmed-->
+
+    <string name="booking_confirmed">Booking Confirmed</string>
+    <string name="proceed">PROCEED</string>
+    <string name="cancel">CANCEL</string>
+    <string name="done">DONE</string>
+    <string name="booking_detail">Booking Detail</string>
+    <string name="arriving">Arriving in:</string>
+    <!--Track photographer-->
+    <string name="track_photographer">Track Photographer</string>
+    <!--Start photosShoot-->
+    <string name="start">START</string>
+    <string name="end">END</string>
+    <string name="start_photoshoot">Start Photoshoot</string>
+    <string name="start_clicking">Start with arrived photographer by clicking on \'START\' button</string>
+    <string name="total_bill">Total Bill</string>
+    <string name="bill_detail">Bill Details</string>
+    <string name="thank_you">THANK YOU!</string>
+    <string name="rating">Rating</string>
+    <string name="google_browser_key">AIzaSyDztPe6a6h-DayWs7Jy3qw_TAui0UBED9s</string>
+    <string name="cloud">SYNC FROM CLOUD</string>
+    <string name="no_internet">No internet connection!</string>
+    <!--      Signup      -->
+    <string name="Please_enter_mobile_number">Please enter mobile number</string>
+    <string name="Please_enter_valid_number">Please enter 10 digits mobile number</string>
+    <!--      Profile      -->
+    <string name="please_enter_email_address">Please enter email id</string>
+    <string name="please_enter_first_name">Please enter first name</string>
+    <string name="please_enter_last_name">Please enter last name</string>
+    <string name="enter_valid_email_id">Please enter valid email id</string>
+    <string name="please_enter_address">Please enter address</string>
+    <string name="please_enter_zip_code">Please enter zip code</string>
+    <string name="please_enter_review">Please enter Review</string>
+    <string name="please_enter_rating">Please enter Rating</string>
+    <!--   Add  Card Detail-->
+    <string name="please_enter_card_number">Please enter card number</string>
+    <string name="please_enter_valid_card_number">Please enter 16 digits valid card number</string>
+    <string name="please_enter_expire_date">Please enter card expire month and year</string>
+    <string name="please_enter_card_holder_name">Please enter card holder name</string>
+    <string name="please_enter_cvv">Please enter CVV/CVC number</string>
+    <string name="please_enter_valid_cvv_number">Please enter 3 digit vaild cvv number</string>
+    <string name="Please_enter_valid_date_formate">Please enter expire month and year into MM/YYYY formate</string>
+    <string name="technology">Technology/photography Services Agreement</string>
+    <string name="text_continue">CONTINUE</string>
+    <string name="condition">I agree to fan\'s terms &amp; conditions</string>
+    <string name="no_conversation_yet">No Conversation yet!!</string>
+    <string name="terms_and_conditions_message">Please accept terms &amp; condition</string>
+    <string name="com_stripe_publishable_key">pk_test_PXJXzT4pZI6A1cMC4MtNB0ph</string>
+    <string name="fan">Fan</string>
+    <string name="session_expired_msg">Your last login session is expired, please login again.</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="alert">Alert</string>
+    <string name="are_you_sure_you_want">Are you sure you want to delete?</string>
+    <!--Complain -->
+    <string name="please_enter_order_id">Please enter Order Id</string>
+    <string name="select_your_complain">Select your complain</string>
+    <string name="please_enter_your_message">Please enter your message</string>
+    <string name="location_updated">Location Updated: %1$s</string>
+
+
+</resources>

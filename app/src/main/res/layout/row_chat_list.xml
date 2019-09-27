@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:customfontdemo="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout_chat_screen"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FCFCFC"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <RelativeLayout
+        android:id="@+id/all_Item_relative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/layout_left_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/chat_left_bg"
+            android:orientation="vertical"
+            android:paddingBottom="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp">
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+                <!--<ImageView-->
+                <!--android:id="@+id/image_left"-->
+                <!--fontPath="@string/font_RW_regular"-->
+                <!--android:layout_width="150dp"-->
+                <!--android:layout_height="150dp"-->
+                <!--android:layout_gravity="left"-->
+                <!--android:background="@mipmap/chatdefalt"-->
+                <!--android:gravity="center"-->
+                <!--android:scaleType="centerCrop"-->
+                <!--android:visibility="gone" />-->
+
+                <RelativeLayout
+                    android:id="@+id/progressRelative"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:visibility="gone">
+
+                    <ProgressBar
+                        android:id="@+id/progress_bar_sending"
+                        style="?android:attr/progressBarStyleLargeInverse"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:indeterminateTint="@color/colorPrimary"
+                        android:visibility="visible" />
+                </RelativeLayout>
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/commenttext_left_image"
+                fontPath="@string/font_quicksand_regular"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_gravity="left"
+                android:layout_toRightOf="@+id/img_left_pdf"
+                android:lineSpacingExtra="1dp"
+                android:text="Hello bubbles!"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:visibility="gone" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <!--<ImageView-->
+                <!--android:id="@+id/img_left_pdf"-->
+                <!--android:layout_width="50dp"-->
+                <!--android:layout_height="50dp"-->
+                <!--android:layout_marginLeft="3dp"-->
+                <!--android:src="@drawable/chatdoc"-->
+                <!--android:visibility="gone" />-->
+
+                <TextView
+                    android:id="@+id/commenttext_left"
+                    fontPath="@string/font_quicksand_regular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="left"
+                    android:gravity="center_vertical"
+                    android:lineSpacingExtra="1dp"
+                    android:padding="5dp"
+                    android:text="Hello bubbles!"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:visibility="visible" />
+
+
+            </RelativeLayout>
+
+
+            <TextView
+                android:id="@+id/MessageTimeleft"
+                fontPath="@string/font_quicksand_regular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_gravity="right"
+                android:gravity="center_vertical"
+                android:text="11 aug"
+                android:textColor="@color/white"
+                android:textSize="11sp"
+                android:visibility="visible" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/layout_right_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/chat_right_bg"
+            android:orientation="vertical"
+            android:paddingBottom="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp">
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+                <!--<ImageView-->
+                <!--android:id="@+id/image_right"-->
+                <!--fontPath="@string/font_quicksand_regular"-->
+                <!--android:layout_width="150dp"-->
+                <!--android:layout_height="150dp"-->
+                <!--android:layout_gravity="right"-->
+                <!--android:background="@mipmap/chatdefalt"-->
+                <!--android:gravity="center"-->
+                <!--android:scaleType="centerCrop"-->
+                <!--android:visibility="gone" />-->
+
+                <RelativeLayout
+                    android:id="@+id/progressRelativeRight"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:visibility="gone">
+
+                    <ProgressBar
+                        style="?android:attr/progressBarStyleLargeInverse"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:indeterminateTint="@color/colorPrimary"
+                        android:visibility="visible" />
+                </RelativeLayout>
+
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/commenttext_right_image"
+                fontPath="@string/font_quicksand_regular"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_gravity="left"
+                android:layout_toRightOf="@+id/img_left_pdf"
+                android:lineSpacingExtra="1dp"
+                android:text="Hello bubbles!"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:visibility="gone" />
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+                <!--<ImageView-->
+                <!--android:id="@+id/img_right_pdf"-->
+                <!--android:layout_width="50dp"-->
+                <!--android:layout_height="50dp"-->
+                <!--android:layout_marginLeft="3dp"-->
+                <!--android:src="@drawable/chatdoc"-->
+                <!--android:visibility="gone" />-->
+
+                <TextView
+                    android:id="@+id/commenttext_right"
+                    fontPath="@string/font_quicksand_regular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="right"
+                    android:gravity="center_vertical"
+                    android:lineSpacingExtra="1dp"
+                    android:padding="5dp"
+                    android:text="Hello bubbles!"
+                    android:textColor="@color/white"
+                    android:textSize="15sp" />
+
+
+            </RelativeLayout>
+
+
+            <TextView
+                android:id="@+id/MessageTimeRight"
+                fontPath="@string/font_quicksand_regular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_gravity="right"
+                android:gravity="center_vertical"
+                android:text="11 aug"
+                android:textColor="@color/white"
+                android:textSize="11sp"
+                android:visibility="visible" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "823792769520",
+    "firebase_url": "https://fancustomer-219212.firebaseio.com",
+    "project_id": "fancustomer-219212",
+    "storage_bucket": "fancustomer-219212.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:823792769520:android:c8bde6f2a7e7c8ae",
+        "android_client_info": {
+          "package_name": "com.fancustomer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "823792769520-u0u048g5of2bnaebmt6n0i6et9t31ib2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDD6RGldyWViqcLWByawZtw90oRcw5jFXs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

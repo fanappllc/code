@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/toolbar_enter_mobile"
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar_enter_mobile"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/imageView_loading"
+            fontPath="@string/font_quicksand_medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="00:00:00"
+            android:textColor="@color/dark_orange"
+            android:textSize="40sp" />
+
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/timerlayout"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:gravity="center">
+
+        <FrameLayout
+            android:layout_width="230dp"
+            android:layout_height="230dp">
+
+            <RelativeLayout
+                android:layout_width="220dp"
+                android:layout_height="220dp"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+                <com.fancustomer.helper.RingProgressBar
+                    android:id="@+id/progress_bar_1"
+                    android:layout_width="220dp"
+                    android:layout_height="220dp"
+                    app:ringColor="@color/light_gray"
+                    app:ringProgressColor="@color/colorPrimary"
+                    app:ringWidth="5dp"
+                    app:style="STROKE"
+                    app:textColor="@color/white"
+                    app:textIsShow="true"
+                    app:textSize="16sp" />
+
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:id="@+id/threeLayout"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:background="@drawable/white_circular_view_bg"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/userImageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/default_user" />
+
+
+            </LinearLayout>
+
+
+        </FrameLayout>
+
+
+        <!--<RelativeLayout-->
+        <!--android:layout_width="180dp"-->
+        <!--android:layout_height="180dp"-->
+        <!--android:layout_centerInParent="true"-->
+        <!--android:background="@mipmap/circle">-->
+
+        <!--<com.taxiapp.driver.helper.RingProgressBar-->
+        <!--android:id="@+id/progress_bar_1"-->
+        <!--android:layout_width="180dp"-->
+        <!--android:layout_height="180dp"-->
+        <!--android:layout_gravity="center"-->
+        <!--app:ringColor="#FDD3B9"-->
+        <!--app:ringProgressColor="@color/orange_dark"-->
+        <!--app:ringWidth="5dp"-->
+        <!--app:style="STROKE"-->
+        <!--app:textColor="@color/white"-->
+        <!--app:textIsShow="true"-->
+        <!--app:textSize="16sp" />-->
+        <!--</RelativeLayout>-->
+
+
+    </RelativeLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/chat_fab_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/timerlayout"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp"
+        android:scaleType="center"
+        android:src="@mipmap/message"
+        android:visibility="gone"
+        app:backgroundTint="@color/green" />
+
+    <TextView
+        android:id="@+id/photoShootTextView"
+        fontPath="@string/font_quicksand_medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/rl"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:lineSpacingExtra="5dp"
+        android:padding="13sp"
+        android:text="@string/start_clicking"
+        android:textAlignment="center"
+        android:textColor="@color/light_gray_new"
+        android:textSize="14sp"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/rl_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/button_start"
+            fontPath="@string/font_quicksand_medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/framelayout"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:padding="13sp"
+            android:text="@string/start"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <FrameLayout
+            android:id="@+id/framelayout"
+            android:layout_width="0dp"
+            android:layout_height="39sp"
+            android:layout_centerInParent="true"
+            android:background="@color/transparent"
+            android:clipToPadding="true"
+            android:foregroundGravity="center"
+            android:gravity="center"
+            android:layoutMode="clipBounds" />
+
+        <TextView
+            android:id="@+id/button_cancel"
+            fontPath="@string/font_quicksand_medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/framelayout"
+            android:background="@color/dark_orange"
+            android:gravity="center"
+            android:padding="13sp"
+            android:text="@string/cancel"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_end"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/end_textView"
+            fontPath="@string/font_quicksand_medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:padding="13sp"
+            android:text="Your Session will end in 1 hour. Alternatively you can end time early, however no refunds will be issued except."
+            android:textAlignment="center"
+            android:textColor="@color/light_gray_new"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/button_end"
+            fontPath="@string/font_quicksand_medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/end_textView"
+            android:background="@color/dark_orange"
+            android:gravity="center"
+            android:padding="13sp"
+            android:text="@string/end"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+
+    </RelativeLayout>
+</RelativeLayout>
+
